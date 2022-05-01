@@ -1,1 +1,14 @@
-Projeto
+                                                             Software para Clínica Veterinária
+Responsáveis pelo desenvolvimento:
+
+Luis Otávio Pereira - RA: 202024410219
+Marcelo Bonfante Amadeu - RA: 202024410207
+
+
+Finalidade: o software a ser desenvolvido tem o objetivo de informatizar os trabalhos realizados na Clínica, desde a chegada dos clientes, passando pelos procedimentos realizados e, por fim, gerando um histórico dos atendimentos feitos e prestados ao animal, a ser realizado pelo Médico Veterinário. Portanto, o mesmo, deve controlar todos esses itens de maneira eficiente, a fim de aperfeiçoar o seu atendimento com o cliente e melhorar seu controle interno.Atualmente a clínica possui uma ficha para o cadastro de clientes com os seguintes dados: nome do cliente, sobrenome, email, idade, telefone, cidade, endereço, nome do animal.
+
+O usuário do sistema pode adicionar os clientes e também cadastrar os produtos da clínica. O cliente é cadastrado clicando no botão "Adicionar Cliente" e inserindo os dados pedidos. Após isso, basta clicar em "Cadastrar" e pronto. O programa retornará à tela inicial mostrando o cliente cadastrado na área "Pacientes cadastrados". Observe que logo à frente dos dados, aparecem os botões "editar" , "deletar" e "Consultar", caso o usuário resolva alterar os dados do cliente ou excluí-lo. O botão "Consultar", ao ser clicado, encaminha o paciente para consulta com o Médico Veterinário. Com relação ao cadastro de produtos, basta clicar em "Adicionar produto", preencher os dados solicitados (Nome, Indicação) e clicar em "Cadastrar". Feito isso, o programa retornará à tela inicial e na área "Produtos disponíveis", serão exibidos os produtos cadastrados, que também têm a opção de serem atualizados, clicando no botão "editar", alterando os dados e salvando-os através do botão "Atualizar".
+
+O Médico Veterinário preenche os dados do "Relatório Médico" (Animal, Diagnóstico, Medicamento, Vacinar?, Tipo de vacina). Ao clicar em "Gerar Relatório", o programa volta à página inicial e a área "Relatório Médico: Pacientes consultados" é exibida com os dados cadastrados. Caso seja preciso editá-los, basta clicar no botão "editar" fazer as alterações e clicar no botão "Atualizar".
+
+Observações: para o sistema foram criados três bancos de dados: crud(referente aos dados inseridos na área "Pacientes cadastrados"), crudone(referente aos dados inseridos na área "Relatório Médico: Pacientes consultados") e crudproduto(referente aos dados inseridos na área "Produtos disponíveis"). Dessa forma, os mesmos se encontram disponíveis na pasta "banco de dados", juntamente com os arquivos do código. O usuário deve baixá-lo e fazer a importação dos mesmos para o MySql ou outro que utilizar, a fim de que o sistema criado, ao ser rodado, funcione de forma correta. O usuário também deve possuir um servidor para o funcionamento do sistema.
